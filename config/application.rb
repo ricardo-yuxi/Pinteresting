@@ -22,5 +22,6 @@ module Pinteresting
 
     # Required for heroku
     config.assets.initialize_on_precompile = false
+    config.app_generators.scaffold_controller = :scaffold_controller
   end
 end
